@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background:   #e0e0e0;
+    color: #707070;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    min-width: 500px;
+}
+
+title {
+    font-weight: 700;
+    font-size: 50p;
+}
+
+.form-rounded {
+    border-radius: 2em;
+}
+
+.back-card {
+    border-radius: 100px !important;
+}
+
+.city-name {
+    position: absolute;
+    width: 100%;
+}
+
+.city-name p{
+    font-size: 36pt;
+    font-weight: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -20px;
+}
+
+.temp span{
+    font-weight: 100;
+    font-size: 5em;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+
+.card-mid {
+    line-height: 0,5;
+}
+
+.condition {
+    line-height: 2em;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.high::before{
+    content: '';
+    background: url('imgs/up.svg');
+    width: 7px;
+    height: 14px;
+    display: inline-block;
+    position: reletive;
+    top: 3px;
+}
+
+.low::before{
+    content: '';
+    background: url('imgs/down.svg');
+    width: 7px;
+    height: 14px;
+    display: inline-block;
+    position: reletive;
+    top: 3px;
+}
+
+.icon-container {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #202020;
+}
+
+.icon-container img {
+    margin: auto;
+}
+
+.card-bottom {
+    line-height: 0.5;
+
+}
+
+.card-bottom span {
+    font-size: 12px;
+}
+
+.card-bottom p {
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: -3px;
+}
